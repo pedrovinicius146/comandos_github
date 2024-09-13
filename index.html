@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Projeto Git</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Exemplo de Projeto Git</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Sobre este projeto</h2>
+      <p>Este projeto foi criado para demonstrar o uso básico do Git no controle de versão de arquivos de um projeto web. <br>
+      Aqui você pode modificar o conteúdo deste arquivo e versioná-lo utilizando Git.</p>
+    </section>
+    <section>
+      <h2>O que você pode fazer?</h2>
+      <ul>
+        <li>Criar novas seções nesta página.</li>
+        <li>Modificar o texto ou o estilo da página.</li>
+        <li>Fazer commit das alterações e enviá-las para um repositório remoto.</li>
+        <li>Criar uma nova branch.</li>
+      </ul>
+    </section>
+    <!-- Seção da tabela de comandos Git -->
+    <section>
+      <h2>Comandos Git</h2>
+      <table>
+        <tr>
+          <th>Comando Git</th>
+          <th>Funcionalidade</th>
+        </tr>
+        <tr>
+          <td>git init</td>
+          <td>Inicializa um novo repositório Git em um diretório.</td>
+        </tr>
+        <tr>
+          <td>git clone &lt;url&gt;</td>
+          <td>Clona um repositório remoto para o local.</td>
+        </tr>
+        <tr>
+          <td>git status</td>
+          <td>Mostra o estado atual do repositório, incluindo arquivos modificados, adicionados ou não rastreados.</td>
+        </tr>
+        <tr>
+          <td>git add &lt;arquivo&gt;</td>
+          <td>Adiciona um arquivo específico para ser preparado (staged) para o próximo commit.</td>
+        </tr>
+        <tr>
+          <td>git add .</td>
+          <td>Adiciona todos os arquivos modificados no diretório atual para a área de preparação (staging area).</td>
+        </tr>
+        <tr>
+          <td>git commit -m "&lt;mensagem&gt;"</td>
+          <td>Confirma as mudanças preparadas com uma mensagem descritiva.</td>
+        </tr>
+        <tr>
+          <td>git commit --amend</td>
+          <td>Altera o último commit, permitindo a correção de mensagens ou inclusão de arquivos esquecidos.</td>
+        </tr>
+        <tr>
+          <td>git log</td>
+          <td>Exibe o histórico de commits no repositório.</td>
+        </tr>
+        <tr>
+          <td>git diff</td>
+          <td>Mostra as diferenças entre arquivos modificados mas não preparados ou entre commits.</td>
+        </tr>
+        <tr>
+          <td>git branch</td>
+          <td>Lista as ramificações (branches) do repositório.</td>
+        </tr>
+        <tr>
+          <td>git branch &lt;nome&gt;</td>
+          <td>Cria uma nova ramificação.</td>
+        </tr>
+        <tr>
+          <td>git checkout &lt;branch&gt;</td>
+          <td>Muda para uma ramificação específica.</td>
+        </tr>
+        <tr>
+          <td>git merge &lt;branch&gt;</td>
+          <td>Mescla uma ramificação com a ramificação atual.</td>
+        </tr>
+        <tr>
+          <td>git pull</td>
+          <td>Faz download do conteúdo de um repositório remoto e atualiza o repositório local.</td>
+        </tr>
+        <tr>
+          <td>git push</td>
+          <td>Envia as alterações locais para o repositório remoto.</td>
+        </tr>
+        <tr>
+          <td>git remote</td>
+          <td>Gerencia repositórios remotos, listando ou configurando repositórios conectados.</td>
+        </tr>
+        <tr>
+          <td>git remote add &lt;nome&gt; &lt;url&gt;</td>
+          <td>Adiciona um repositório remoto com um nome específico.</td>
+        </tr>
+        <tr>
+          <td>git stash</td>
+          <td>Armazena temporariamente mudanças não confirmadas para permitir mudar de branch sem perder o progresso.</td>
+        </tr>
+        <tr>
+          <td>git stash pop</td>
+          <td>Aplica as mudanças armazenadas no stash de volta ao diretório de trabalho.</td>
+        </tr>
+        <tr>
+          <td>git reset &lt;arquivo&gt;</td>
+          <td>Remove um arquivo da área de preparação, mantendo as mudanças no diretório de trabalho.</td>
+        </tr>
+        <tr>
+          <td>git reset --hard</td>
+          <td>Redefine o repositório para o último commit, descartando todas as mudanças locais.</td>
+        </tr>
+        <tr>
+          <td>git rebase &lt;branch&gt;</td>
+          <td>Reaplica commits em cima de outra branch para reorganizar o histórico.</td>
+        </tr>
+        <tr>
+          <td>git tag &lt;nome&gt;</td>
+          <td>Marca um ponto específico no histórico do repositório, geralmente usado para releases.</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 - Curso de Git</p>
+  </footer>
+</body>
+</html>

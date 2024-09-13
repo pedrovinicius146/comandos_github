@@ -1,0 +1,132 @@
+/* Estilo para o corpo da página */
+body {
+    /* Fonte Open Sans */
+    font-family: 'Open Sans', sans-serif;
+    
+    /* Cor de fundo preto */
+    background-color: #000000;
+    
+    /* Cor do texto cinza escuro */
+    color: #333;
+    
+    /* Margem e padding para o corpo da página */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    /* Cor de fundo azul */
+    background-color: #1351D8;
+    
+    /* Cor do texto branco */
+    color: white;
+    
+    /* Padding para o cabeçalho */
+    padding: 20px 0;
+    
+    /* Alinhamento de texto centralizado */
+    text-align: center;
+  }
+  
+  /* Estilo para o título do cabeçalho */
+  header h1 {
+    /* Tamanho de fonte 24px */
+    font-size: 24px;
+    
+    /* Margem para o título */
+    margin: 0;
+  }
+  
+  /* Estilo para o conteúdo principal */
+  main {
+    /* Margem superior para o conteúdo principal */
+    margin-top: 40px;
+  }
+  
+  /* Estilo para as seções */
+  section {
+    /* Cor de fundo branco */
+    background-color: #fff;
+    
+    /* Padding para as seções */
+    padding: 20px;
+    
+    /* Bordas para as seções */
+    border: 1px solid #ddd;
+    
+    /* Margem inferior para as seções */
+    margin-bottom: 20px;
+    
+    /* Efeito de sombra para as seções */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para os títulos das seções */
+  section h2 {
+    /* Tamanho de fonte 18px */
+    font-size: 18px;
+    
+    /* Margem superior para os títulos */
+    margin-top: 0;
+  }
+  
+  /* Estilo para as listas */
+  ul {
+    /* Remover estilo de lista */
+    list-style: none;
+    
+    /* Remover padding e margem para as listas */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo para os itens da lista */
+  li {
+    /* Margem inferior para os itens da lista */
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    /* Margem superior para o rodapé */
+    margin-top: 40px;
+    
+    /* Alinhamento de texto centralizado */
+    text-align: center;
+    
+    /* Padding para o rodapé */
+    padding: 10px 0;
+    
+    /* Cor de fundo cinza escuro */
+    background-color: #333;
+    
+    /* Cor do texto branco */
+    color: white;
+  }
+  
+  /* Estilo para o parágrafo do rodapé */
+  footer p {
+    /* Remover margem para o parágrafo do rodapé */
+    margin: 0;
+  }
+
+  /* Estilos adicionais para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilos anteriores mantidos, aqui você pode adicionar ou modificar conforme necessário */
+  
